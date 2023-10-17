@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #f0490d , #3907ff);
+    color: white;
+}
+.login {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 5px;
+    color: white;
+    
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 5px;
+    text-align: justify;
+}
+.btn-entrar {
+    width: 100%;
+    margin: 20px 0px;
+    font-weight: 700;
+}
+.inputBox {
+    margin: 5px;;
+}
+a {
+    text-decoration: none;
+    color: white;
+    border-bottom : 2px solid dodgerblue;
+    padding: 5px;
+    margin: 5px;
+    font-size:12px;
+}
+
+a:hover{
+    background-color: dodgerblue;
+}
+.box-search{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 0.5%;
+}
